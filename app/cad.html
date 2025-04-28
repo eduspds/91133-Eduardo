@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque 1.0 - SENAI FSA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Estoque 1.0 - SENAI FSA</h1>
+
+    <div class="container">
+
+        <form method="post" action="api/api.php" onsubmit="return validarFormulario()">
+            <label for="produto">Produto:</label>
+            <input type="text" name="produto" id="produto">
+            
+            <label for="tipo">Tipo:</label>
+            <select name="tipo" id="tipo">
+                <option value="">Selecione</option>
+                <option value="Alimento">Alimento</option>
+                <option value="Limpeza">Limpeza</option>
+                <option value="Eletrônico">Eletrônico</option>
+                <option value="Vestuário">Vestuário</option>
+            </select>
+            
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" min="1">
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+        
+    <div class="container-btn">
+        <button class="btn"><a href="http://localhost/app/view/listar.php">Listar produtos</a></button>
+        <br><br>
+        <button class="btn"><a href="http://localhost/app">Voltar</a></button>
+    </div>
+</body>
+</html>
