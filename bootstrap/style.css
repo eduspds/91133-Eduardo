@@ -1,0 +1,70 @@
+/* === NAVBAR === */
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+    background-color: lightblue;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* === SESSÕES GERAIS === */
+.section {
+    margin: 60px 0;
+}
+
+/* === TÍTULOS DE SEÇÕES === */
+.container h2 {
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* === CARDS DE ANIMAIS E DEPOIMENTOS === */
+.card {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: 600;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* === RODAPÉ === */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+    font-size: 0.95rem;
+}
+
+/* === BOTÃO VOLTAR AO TOPO === */
+.btn-voltar-topo {
+    z-index: 1000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-voltar-topo:hover {
+    background-color: #0056b3;
+}
