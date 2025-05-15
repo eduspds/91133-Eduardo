@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin: 0px;
+    padding: 0px;
+}
+
+input, label, button {
+    margin: 10px;
+}
