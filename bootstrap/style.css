@@ -1,4 +1,3 @@
-/* === NAVBAR === */
 .navbar-brand {
     color: white !important;
     font-weight: bold;
@@ -8,19 +7,16 @@
     text-decoration: none;
 }
 
-/* === SESSÕES GERAIS === */
 .section {
     margin: 60px 0;
 }
 
-/* === TÍTULOS DE SEÇÕES === */
 .container h2 {
     font-weight: 700;
     color: #2c3e50;
     margin-bottom: 30px;
 }
 
-/* === CARDS DE ANIMAIS E DEPOIMENTOS === */
 .card {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s;
@@ -42,7 +38,6 @@
     color: #333;
 }
 
-/* === RODAPÉ === */
 footer {
     background-color: #212529;
     color: white;
@@ -50,7 +45,6 @@ footer {
     font-size: 0.95rem;
 }
 
-/* === BOTÃO VOLTAR AO TOPO === */
 .btn-voltar-topo {
     z-index: 1000;
     position: fixed;
